@@ -1,4 +1,4 @@
-
+import { global } from "../styles/globals.css";
 
 export const metadata = {
   title: "Next.js",
