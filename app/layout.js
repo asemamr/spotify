@@ -1,9 +1,4 @@
-import { getServerSession } from "next-auth";
-import { global } from "../styles/globals.css";
 
-import SideBar from "./SideBar";
-import { authOptions } from "../pages/api/auth/[...nextauth]";
-import { redirect } from "next/navigation";
 
 export const metadata = {
   title: "Next.js",
