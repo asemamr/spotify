@@ -9,12 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.17",
+    "@next/swc-linux-x64-gnu": "^13.2.4",
+    "create-next-app": "^13.2.4",
+    "lottie-react": "^2.4.0",
     "next": "13.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-svg": "^16.1.9",
+    "spotify-web-api-node": "^5.0.2",
+    "tailwind-scrollbar-hide": "^1.1.7"
   },
   "devDependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/spotify-web-api-node": "^5.0.7",
+    "autoprefixer": "^10.4.14",
     "eslint": "8.36.0",
-    "eslint-config-next": "13.2.4"
+    "eslint-config-next": "13.2.4",
+    "postcss": "^8.4.21",
+    "tailwind-scrollbar": "^3.0.0",
+    "tailwindcss": "^3.2.7",
+    "typescript": "5.0.4"
   }
 }
