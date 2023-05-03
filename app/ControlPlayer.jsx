@@ -68,7 +68,6 @@ function ControlPlayer({ src, next, prev }) {
             step={1}
             value={trackProgress}
             max={isNaN(duration) ? 0 : duration}
-            maxLength={100}
             className="w-full"
             onChange={(e) => changeRange(e.target.value)}
             onMouseUp={() => startTimer()}
